@@ -1,0 +1,45 @@
+#contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  gap: 80px;
+}
+.info-content {
+  max-width: 80%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-content {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+.form-content input,
+.form-content textarea {
+  background-color: #dcdcdc;
+  padding: 15px;
+  border: none;
+  border-radius: 2.5%;;
+  font-size: 1em;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+#email {
+  grid-column: span 2;
+}
+#subject {
+  grid-column: span 2;
+}
+#message {
+  height: 200px;
+  grid-column: span 2;
+}
+#submit {
+  width: 80px;
+}

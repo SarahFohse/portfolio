@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+ margin: 0;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.back-top {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 25px 0;
+}
+.back-top a {
+  text-decoration: none;
+  color: #000;
+}

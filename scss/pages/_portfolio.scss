@@ -1,0 +1,11 @@
+// Portfolio Page page numbers don't have a functionality yet
+
+.pagination ul{
+  display: flex;
+  
+}
+.pagination li {
+  list-style: none;
+  margin: 0 15px;
+  cursor: pointer;
+}
