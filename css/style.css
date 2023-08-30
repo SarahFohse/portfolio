@@ -207,6 +207,7 @@ svg tspan > tspan:nth-of-type(11) {
   height: 150px;
   width: 100%;
   filter: grayscale(1);
+  margin-bottom: 50px;
 }
 
 .desktop-view-more {
@@ -246,6 +247,11 @@ svg tspan > tspan:nth-of-type(11) {
   display: block;
   max-width: 250px;
   width: auto;
+}
+
+.project-content h3,
+.project-content p {
+  margin: 5px;
 }
 
 .proj-1 {
@@ -427,13 +433,13 @@ svg tspan > tspan:nth-of-type(11) {
 .scs-content h2 {
   text-align: center;
   font-size: 1.5em;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .subtext {
   color: #797878;
   text-align: center;
-  margin-top: -20px;
+  margin-top: -30px;
   margin-bottom: 20px;
 }
 
