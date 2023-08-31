@@ -1,23 +1,17 @@
 .desktop-view-more {
+  @include text(1.5em, $black);
   display: block;
   text-decoration: none;
-  color: black;
   text-align: right;
   margin: 25px;
-  font-size: 1.5em;
 }
 .mobile-view-more {
+  @include text(1.5em, $black);
   display: block;
   text-decoration: none;
-  color: black;
   text-align: center;
   margin: 25px;
-  font-size: 1.5em;
 }
-
-
-
-
 
 .project-content {
   display: flex;
@@ -25,92 +19,96 @@
   justify-content: space-evenly;
   gap: 25px;
   margin: 50px 25px;
-}
-.project-content img {
-  width: 100%;
-  border-radius: 2.5%;
+
+  & img {
+    width: 100%;
+    border-radius: 2.5%;
+  }
+  & a {
+    text-decoration: none;
+    color: $black;
+    display: block;
+    max-width: 250px;
+    width: auto;
+  }
+  & h3,
+  & p {
+    margin: 5px;
+  }
 }
 
-.project-content a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  max-width: 250px;
-  width: auto;
-}
-.project-content h3,
-.project-content p {
-  margin: 5px;
-}
 .proj-1 {
   top: 0;
   position: relative;
   transition: .5s all ease;
   margin-bottom: 25px;
+  &:hover {
+    top: -10px;
+    transition: .5s all ease;
+    border-radius: 2.5%;
+    box-shadow: 2px 2px 20px 1px $color-shadow;
+  }
 }
-.proj-1:hover {
-  top: -10px;
-  transition: .5s all ease;
-  border-radius: 2.5%;
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
-}
+
 .proj-2 {
   top: 0;
   position: relative;
   transition: .5s all ease;
   margin-bottom: 25px;
-}
-.proj-2:hover {
-  top: -10px;
-  transition: .5s all ease;
-  border-radius: 2.5%;
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  &:hover {
+    top: -10px;
+    transition: .5s all ease;
+    border-radius: 2.5%;
+    box-shadow: 2px 2px 20px 1px $color-shadow;
+  }
 }
 .proj-3 {
   top: 0;
   position: relative;
   transition: .5s all ease;
   margin-bottom: 25px;
-}
-.proj-3:hover {
-  top: -10px;
-  transition: .5s all ease;
-  border-radius: 2.5%;
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  &:hover {
+    top: -10px;
+    transition: .5s all ease;
+    border-radius: 2.5%;
+    box-shadow: 2px 2px 20px 1px $color-shadow;
+  }
 }
 .proj-4 {
   top: 0;
   display: none;
   position: relative;
   transition: .5s all ease;
-}
-.proj-4:hover {
-  top: -10px;
-  transition: .5s all ease;
-  border-radius: 2.5%;
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  &:hover {
+    top: -10px;
+    transition: .5s all ease;
+    border-radius: 2.5%;
+    box-shadow: 2px 2px 20px 1px $color-shadow;
+  }
 }
 .proj-5 {
   top: 0;
   display: none;
   position: relative;
   transition: .5s all ease;
+  &:hover {
+    top: -10px;
+    transition: .5s all ease;
+    border-radius: 2.5%;
+    box-shadow: 2px 2px 20px 1px $color-shadow;
+  }
 }
-.proj-5:hover {
-  top: -10px;
-  transition: .5s all ease;
-  border-radius: 2.5%;
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
-}
+
+
 .proj-6 {
   top: 0;
   display: none;
   position: relative;
   transition: .5s all ease;
-}
-.proj-6:hover {
-  top: -10px;
-  transition: .5s all ease;
-  border-radius: 2.5%;
-  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  &:hover {
+    top: -10px;
+    transition: .5s all ease;
+    border-radius: 2.5%;
+    box-shadow: 2px 2px 20px 1px $color-shadow;
+  }
 }

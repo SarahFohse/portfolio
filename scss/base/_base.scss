@@ -5,12 +5,13 @@
 }
 html {
  margin: 0;
+ font-size: 16px;
 }
 body {
   width: 100%;
   overflow-x: hidden;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: $stack-oswald;
 }
 
 .container {
@@ -19,10 +20,10 @@ body {
 }
 .back-top {
   text-align: center;
-  font-size: 1.2em;
   margin: 25px 0;
-}
-.back-top a {
-  text-decoration: none;
-  color: #000;
+
+  a {
+    @include text(1.2em, $black);
+    text-decoration: none;
+  }
 }

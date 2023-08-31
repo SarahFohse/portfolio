@@ -2,10 +2,10 @@
 
 .pagination ul{
   display: flex;
-  
+  & li {
+    list-style: none;
+    margin: 0 15px;
+    cursor: pointer;
 }
-.pagination li {
-  list-style: none;
-  margin: 0 15px;
-  cursor: pointer;
+
 }

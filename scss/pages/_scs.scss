@@ -2,23 +2,26 @@
 .scs-content {
   max-width: 400px;
   margin-bottom: 50px;
+  & h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 30px 0;
+  }
+  & p {
+    margin-bottom: 15px;;
+  }
+  & a {
+    color: $black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
-.scs-content h2 {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 30px 0;
-}
+
 .subtext {
-  color: rgb(121, 120, 120);
+  color: $grey;
   text-align: center;
   margin-top: -30px;
   margin-bottom: 20px;
 }
-.scs-content p {
-  margin-bottom: 15px;;
-}
-.scs-content a {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
+
+
