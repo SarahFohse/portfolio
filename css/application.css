@@ -299,6 +299,16 @@ h1 {
   margin-right: auto;
 }
 
+.info-content h4 {
+  font-size: 2em;
+  margin: 15px 0;
+}
+
+.info-content p {
+  font-size: 1.2em;
+  padding: 15px 0;
+}
+
 .form-content {
   display: grid;
   gap: 10px;
